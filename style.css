@@ -49,6 +49,16 @@ h1 {
     align-items: center;
     justify-content: center;
     font-family: var(--montserrat-font-family), cursive;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 3px;
+}
+
+.logo {
+	display: flex;
+	width: 5rem; 
+	height: 5rem; 
+	object-fit: contain;
+	margin-right: 10px;
 }
 
 .footer {
@@ -59,4 +69,8 @@ h1 {
     padding: 0 3%;
     font-family: var(--montserrat-font-family), cursive;
     min-height: 2rem;
+}
+
+.header.transparent {
+    background: transparent;
 }
