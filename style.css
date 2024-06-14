@@ -50,3 +50,13 @@ h1 {
     justify-content: center;
     font-family: var(--montserrat-font-family), cursive;
 }
+
+.footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    right: 0;
+    padding: 0 3%;
+    font-family: var(--montserrat-font-family), cursive;
+    min-height: 2rem;
+}
